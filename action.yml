@@ -1,0 +1,13 @@
+name: 'Tag to Version'
+description: 'Greet someone and record the time'
+inputs:
+  tag:  # id of input
+    description: 'The tag/github reference'
+    required: true
+    default: 'latest'
+outputs:
+  version: # id of output
+    description: 'The git hub tag/ref stripped to something docker tag friendly'
+runs:
+  using: 'node12'
+  main: 'index.js'
