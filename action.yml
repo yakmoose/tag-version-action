@@ -1,5 +1,5 @@
 name: 'Tag to Version'
-description: 'Greet someone and record the time'
+description: 'why is this not built in?'
 inputs:
   tag:  # id of input
     description: 'The tag/github reference'
