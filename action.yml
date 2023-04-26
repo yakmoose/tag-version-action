@@ -9,5 +9,5 @@ outputs:
   version: # id of output
     description: 'The git hub tag/ref stripped to something docker tag friendly'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
